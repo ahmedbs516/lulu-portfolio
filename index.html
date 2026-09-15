@@ -4,6 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>محفظة لولو — تطبيق تتبع الأصول</title>
+<meta name="description" content="تطبيق احترافي لتتبع محفظتك الاستثمارية — أسهم، كريبتو، معادن، عقارات">
+<meta name="theme-color" content="#7c3aed">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="محفظة لولو">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 <style>
@@ -48,5 +57,10 @@ p{color:#9d94b8;font-size:14px;line-height:1.8;margin:14px 0 24px}
   </a>
   <div class="hint">بعد التحميل: افتح الملف → اسمح بالتثبيت من مصادر غير معروفة → ثبّت<br>حجم التطبيق: ~53KB · يعمل بدون إنترنت</div>
 </div>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(function(){});
+}
+</script>
 </body>
 </html>
