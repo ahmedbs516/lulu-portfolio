@@ -1,7 +1,7 @@
 {
-  "name": "محفظة لولو — متتبع الأصول",
-  "short_name": "محفظة لولو",
-  "description": "تطبيق احترافي لتتبع محفظتك الاستثمارية — أسهم، كريبتو، معادن، عقارات",
+  "name": "Investment Tracker — متتبع الاستثمارات",
+  "short_name": "Investment Tracker",
+  "description": "تطبيق احترافي لتتبع استثماراتك — أسهم، كريبتو، معادن، عقارات",
   "start_url": "/lulu-portfolio/",
   "scope": "/lulu-portfolio/",
   "display": "standalone",
